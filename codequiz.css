@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+main {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 100px;
+}
+
+#start {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#high-scores{
+    border:none;
+    color: red;
+}
+
+#startbutton{
+     background-color: tomato;
+     padding: 10px;
+}
+
+#first-question{
+    display:none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#second-question{
+    display:none;
+    align-items: center;
+    justify-content: center;
+}
+
+#third-question{
+    display:none;
+    align-items: center;
+    justify-content: center;
+}
+
+#fourth-question{
+    display:none;
+    align-items: center;
+    justify-content: center;
+}
+
+#fifth-question{
+    display:none;
+    align-items: center;
+    justify-content: center;
+}

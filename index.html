@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz Challenge</title>
+    <link rel="stylesheet" href="codequiz.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <button id="high-scores">High Scores</button>
+
+    <div id="instructions-div">
+        <header>
+            <h1>Coding Quiz Challenge</h1>
+        </header>
+        <main>
+            <p> Try to answer the following code-related questions within the time limit. Keep in mind the incorrect
+                answers
+                will penalize your score time by ten seconds!</p>
+        </main>
+    </div>
+
+    <div id="start">
+        <button id="startbutton">Start Quiz</button>
+    </div>
+    <div id="quiz">
+        <div id="first-question">
+            <h3>Commonly used data types DO NOT include</h3>
+            <!-- <ol>
+                <li><button onclick="answerQuestion()" data="strings">strings</button></li>
+                <li data="booleans"><button>booleans</button></li>
+                <li data="button"><button>alerts</button></li>
+                <li data="numbers"><button>numbers</button></li>
+            </ol> -->
+        </div>
+        <div id="second-question">
+            <h3>The condition in an if else statement is enclosed within ______</h3>
+            <!-- <ol>
+                <li q2>a)quotes</li>
+                <li>b)curly brackets</li>
+                <li>c)parentheses</li>
+                <li>d)square brackts</li>
+
+            </ol> -->
+        </div>
+        <div id="third-question">
+            <h3> "Arrays in Javascript can be used to store"</h3>
+            <!-- <ol>
+                <li>curly brackets</li>
+                <li>booleans</li>
+                <li>square brackets</li>
+            </ol>
+        </div> -->
+        <div id="fourth-question">
+            <h3>"A very useful tool uded during development and debbugging for pronting content tot he debugger is:"
+            </h3>
+            <!-- <ol>
+                <li>Javasscript</li>
+                <li>terminal/bash</li>
+                <li>for loops</li>
+                <li>console log</li>
+            </ol> -->
+        </div>
+        <div id="fifth-question">
+            <h3>String values must be enclosse within ______ when being assign to variables.</h3>
+            <!-- <ol>
+                <li>commas</li>
+                <li>curly brackets</li>
+                <li>quotes</li>
+                <li>parentheses</li>
+            </ol>
+        </div> -->
+        
+    </div>
+    <div id="timer">
+            <div id="counter"> 60 </div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+
+        <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer ('A')">A</div>
+            <div class="choice" id="B" onclick="checkAnswer('B')">B</div>
+            <div class="choice" id="C" onclick="checkAnswer('C')">C</div>
+            <div class="choice" id="D" onclick="checkAnswer('D')">D</div>
+           
+        </div>
+    
+        <div id="userScore" style= "display: none;"></div>
+    
+
+</body>
+
+</html>
